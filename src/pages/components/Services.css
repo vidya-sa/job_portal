@@ -1,0 +1,40 @@
+.service_tag{
+    width:100%
+}
+.service_tag, .service_title {
+    text-align: center;
+    font-size: 3rem;
+    color : #3B485A;
+    margin-top: 20vh;
+    font-family :Arial, Helvetica, sans-serif
+}
+
+b{
+    color:#9758d6
+}
+.service_caption{
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.service_container{
+    width: 100%;
+    background-color: whitesmoke;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.grid_spacing{
+    margin: 0 !important;
+    width: calc(100% + 50vh) !important;
+}
+
+.icon_image{
+    width: 20vh !important;
+}
+
+.card_title{
+    color: rgb(70, 69, 69);
+}

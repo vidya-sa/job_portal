@@ -1,0 +1,145 @@
+.container{
+    width: 100%;
+}
+
+img{
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.contact_title{
+    position: absolute;
+    width:100%;
+    text-align: center;
+   
+    
+}
+.contact_us_name,.service_caption{
+    color: whitesmoke;
+
+}
+.service_caption{
+    padding-right: 20px;
+}
+.icon_color{
+    color: #914ADA;
+}
+ li{
+padding-right: 5px;
+display: inline-flex;
+list-style: none;
+}
+.width{
+    width: 50%;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.form-2 #ContactForm {
+    max-width: 31rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.form-2 {
+    color: #fff;
+}
+.form-group.has-error.has-danger {
+    margin-bottom: 0.625rem;
+}
+.form-group {
+    position: relative;
+   
+}
+.form-message{
+    color: white;
+}
+
+.form-control-input, .form-control-select {
+    display: block;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    padding-left: 1.3125rem;
+    border: 1px solid #445266;
+    border-radius: 0.25rem;
+    background-color: #445266;
+    color: #fff;
+    font: 400 0.875rem/1.9375rem "Open Sans", sans-serif;
+    transition: all 0.2s;
+    -webkit-appearance: none;
+}
+.label-control {
+    position: absolute;
+    top: 0.8125rem;
+    left: 1.375rem;
+    color: #f8f9fc;
+    opacity: 1;
+    font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+    cursor: text;
+    transition: all 0.2s ease;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.help-block.with-errors {
+    color: #fff;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+  
+}
+.form-group.has-error.has-danger .help-block.with-errors ul {
+    margin-top: 0.375rem;
+}
+.help-block.with-errors ul {
+    margin-bottom: 0;
+}
+.form-group.has-error.has-danger {
+    margin-bottom: 0.625rem;
+}
+.form-control-textarea {
+    display: block;
+    width: 100%;
+    height: 8rem;
+    padding-top: 1.25rem;
+    padding-left: 1.3125rem;
+    border: 1px solid #445266;
+    border-radius: 0.25rem;
+    background-color: #445266;
+    color: #fff;
+    font: 400 0.875rem/1.75rem "Open Sans", sans-serif;
+    transition: all 0.2s;
+}
+.checkbox {
+    font: 400 0.75rem/1.25rem "Open Sans", sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.form-group.has-error.has-danger {
+    margin-bottom: 2rem;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 1.125rem;
+}
+.form-control-submit-button {
+    display: inline-block;
+    width: 100%;
+    height: 3rem;
+    border: 1px solid #91d343;
+    border-radius: 1.5rem;
+    background-color: #91d343;
+    color: #fff;
+    font: 700 0.875rem/1.75rem "Montserrat", sans-serif;
+    cursor: pointer;
+    transition: all 0.2s;
+}
