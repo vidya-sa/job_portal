@@ -9,6 +9,7 @@ import Jobs from './pages/components/Jobs';
 import Services from './pages/components/Services';
 import Contact from './pages/components/Contact';
 import Login from './pages/user/Login';
+import Dashboard from './shared/Dashboard'
 
 
 
@@ -34,9 +35,10 @@ const App =  () => {
             <Route path = "/contact">
             <Contact/>
             </Route>
-            <Route path = "/login">
-            <Login/>
-            </Route>
+            <Route path = "/login" exact component={Login}  />
+            
+            <Route path = "/dashboard" exact component={Dashboard}/>
+           
             <Redirect to="/" />
             </Switch>
             </main>
