@@ -14,7 +14,7 @@ const NavLinks = props => {
     }
     
     useEffect(() => {
-        if (localStorage.getItem('isLogged') == 'true') {
+        if (localStorage.getItem('isLogged') === 'true') {
             setValue('LogOut')
         }
     }, []);
@@ -37,7 +37,7 @@ const NavLinks = props => {
             <NavLink to="/contact">Contact</NavLink>
         </li>
         <li>
-            <div onClick={() => { logOut() }}> {value} </div>
+            <div onClick={() => { logOut() }} style={{cursor:"pointer"}}> {value} </div>
         </li>
     </ul>
 }

@@ -1,7 +1,7 @@
 import React, { Component }from 'react';
-import Dashboard from '../../shared/Dashboard';
-import MainNavigation from '../../shared/components/Navigation/MainNavigation'
 import './Login.css'
+import login from '../../images/login.gif'
+
 
 class Login extends Component  {
     constructor(props) {
@@ -45,22 +45,28 @@ class Login extends Component  {
       
     render(){
     return (
-        <div>
-            
-        <div className="container">
+      <div className="adjustment">
+  <div class="row login-row">
+    <div class="col-6 login-col">
+      <img src={login} className="imagestyle" alt=""/>
+    </div>
+    <div class="col-6">
+      <div className="contain">
          <div className="login_form">
              <form onSubmit={this.formSubmit} className="form_style">
-                <label for="">Username :</label>
-                <input type="text" name="uname"  onChange={e=>this.LoginValue('uname',e) }/>
-                <label for="">Password :</label>
-                <input type="text" name="pass" onChange={e=>this.LoginValue('pass',e) }/>
-                <button type="submit" value="Login">Login</button>
+                <label className="font-style" for="">Username:</label>
+                <input type="text" name="uname" className="field" onChange={e=>this.LoginValue('uname',e) }/>
+                <label  className="font-style" for="">Password:</label>
+                <input type="text" name="pass"  className="field" onChange={e=>this.LoginValue('pass',e) }/>
+                <button type="submit" value="Login" className="btn-style" style={{cursor :"pointer"}}>Login</button>
              </form>
 
          </div>
-        </div>
+        </div></div>
+  </div>
+  </div>
+
        
-        </div>
     )
 }
 }
