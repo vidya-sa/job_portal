@@ -12,14 +12,14 @@ function Contact() {
         <div className="container">
                <div className="contact_title">
                <h1 className="contact_us_name"> CONTACT <b>US</b></h1> 
-               <li className="service_caption">
+               <li className="contact_caption">
                    <RoomIcon className="icon_color"/>22 Innovative Area, San Francisco, Bay Area, CA 94043, USA</li>
                    <div className="Space">
-                   <li className="service_caption">
+                   <li className="contact_caption">
                    <PhoneIcon className="icon_color"/>+81 720 2212</li>
-                   <li className="service_caption">
+                   <li className="contact_caption">
                    <MailIcon className="icon_color"/>office@visohr.com</li>
-                   <li className="service_caption">
+                   <li className="contact_caption">
                    <LanguageIcon className="icon_color"/>www.visohr.com</li>
                    </div>
 

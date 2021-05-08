@@ -35,4 +35,22 @@ b{
 
 .card_title{
     color: rgb(70, 69, 69);
+   
+}
+.title_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: start;
+    line-height: 1.2em;
+}
+
+.service_grid{
+    display: inline-flex;
+    
+}
+
+.executive_para{
+    font-size: medium;
+    line-height: 2rem;
+    margin-top: 5vh;
+    text-align: start;
 }

@@ -9,11 +9,23 @@ class Home extends Component {
         return (
             <div className="container">
         <div className="backGround_title">
-                <h1 className="title" >RECRUITING AGENCY</h1>
-                <p className="title_caption">Feeling that it's time for change in your career path? Check out our job listing and find your new challenge today</p>
+                <h1 className="title" >Keymens Crew Consultants </h1>
+                <p className="title_caption">We recruit across various industry sectors for multinational corporations as well as leading Indian businesses.</p>
              </div>
              <img src={background} alt="Logo" className="background" />
-           
+           <div className="overview-wrapper">
+               <h3 className="title_overview">Overview</h3>
+               <div className="over-alignment">
+                  
+                <p className="over_view">
+                Keymens Crew Consultants is the pioneer of organized recruitment services in India. Over the years, 
+               we have acted as preferred talent acquisition partners to multinationals and leading Indian businesses 
+               to emerge as the leading talent solutions provider in India. This combined with our role as trusted 
+                consultants for Indian professionals translates into our core capability.
+                </p>
+               
+                </div>
+           </div>
             </div>
         )
     }
