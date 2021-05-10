@@ -7,7 +7,7 @@ width: 50%;
 margin-left: auto;
 margin-right: auto;
 position: relative;
-top: 12vh;
+top: 10vh;
 height: 100%;
 
 }
@@ -21,6 +21,7 @@ background-color: #9758d6;
 padding: 20px;
 box-shadow: 2px 2px 5px 5px #d8cbcb;
 border-radius: 5px 20px  5px;
+margin-bottom: 20%;
 }
 .imagestyle{
     border: 5px solid rgb(236, 140, 255);

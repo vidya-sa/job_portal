@@ -2,14 +2,16 @@ import React from 'react';
 import {BrowserRouter as Router,Route,Redirect,Switch} from 'react-router-dom';
 import './App.css';
 import MainNavigation from './shared/components/Navigation/MainNavigation'
-// import Footer from './shared/components/footer/Footer';
+import Footer from './shared/components/footer/Footer';
 import Home from './pages/components/Home'
 import About from './pages/components/About';
 import Jobs from './pages/components/Jobs';
 import Services from './pages/components/Services';
 import Contact from './pages/components/Contact';
 import Login from './pages/user/Login';
-import Dashboard from './shared/Dashboard'
+import Dashboard from './shared/Dashboard';
+
+
 
 
 
@@ -42,7 +44,7 @@ const App =  () => {
             <Redirect to="/" />
             </Switch>
             </main>
-            {/* <Footer /> */}
+            <Footer />
         </Router>
 }
 
