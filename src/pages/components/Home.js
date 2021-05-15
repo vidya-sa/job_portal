@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import './Home.css';
 import background from '../../images/background.jpg'
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 
 class Home extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="container-fluid">
         <div className="backGround_title">
                 <h1 className="title" >Keymens Crew Consultants </h1>
                 <p className="title_caption">We recruit across various industry sectors for multinational corporations as well as leading Indian businesses.</p>

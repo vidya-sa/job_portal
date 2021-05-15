@@ -34,7 +34,7 @@ class Login extends Component  {
         var name=this.state.loginData.uname;
         var pass=this.state.loginData.pass;
         
-        if(name==='sai' && pass === 'ram'){
+        if(name==='trevista' && pass === 'Admin'){
          localStorage.setItem('isLogged', true);
          window.location.href = 'Dashboard';
         this.forceUpdate()
