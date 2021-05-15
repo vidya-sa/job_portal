@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/job_portal/static/css/main.39810a28.chunk.css",
+    "main.js": "/job_portal/static/js/main.4542e5a3.chunk.js",
+    "main.js.map": "/job_portal/static/js/main.4542e5a3.chunk.js.map",
+    "runtime-main.js": "/job_portal/static/js/runtime-main.44253d2f.js",
+    "runtime-main.js.map": "/job_portal/static/js/runtime-main.44253d2f.js.map",
+    "static/css/2.ef9168ec.chunk.css": "/job_portal/static/css/2.ef9168ec.chunk.css",
+    "static/js/2.0a9d790b.chunk.js": "/job_portal/static/js/2.0a9d790b.chunk.js",
+    "static/js/2.0a9d790b.chunk.js.map": "/job_portal/static/js/2.0a9d790b.chunk.js.map",
+    "static/js/3.c876d0cc.chunk.js": "/job_portal/static/js/3.c876d0cc.chunk.js",
+    "static/js/3.c876d0cc.chunk.js.map": "/job_portal/static/js/3.c876d0cc.chunk.js.map",
+    "index.html": "/job_portal/index.html",
+    "static/css/2.ef9168ec.chunk.css.map": "/job_portal/static/css/2.ef9168ec.chunk.css.map",
+    "static/css/main.39810a28.chunk.css.map": "/job_portal/static/css/main.39810a28.chunk.css.map",
+    "static/js/2.0a9d790b.chunk.js.LICENSE.txt": "/job_portal/static/js/2.0a9d790b.chunk.js.LICENSE.txt",
+    "static/media/Chief.74d51fa2.gif": "/job_portal/static/media/Chief.74d51fa2.gif",
+    "static/media/background.59a601a9.jpg": "/job_portal/static/media/background.59a601a9.jpg",
+    "static/media/executive.b9f4f157.jpeg": "/job_portal/static/media/executive.b9f4f157.jpeg",
+    "static/media/jobListbackground.a67584fc.jpg": "/job_portal/static/media/jobListbackground.a67584fc.jpg",
+    "static/media/login.f1c7cf53.gif": "/job_portal/static/media/login.f1c7cf53.gif",
+    "static/media/logo1.63ab9ec6.jpeg": "/job_portal/static/media/logo1.63ab9ec6.jpeg",
+    "static/media/managing.db4fab9c.png": "/job_portal/static/media/managing.db4fab9c.png",
+    "static/media/servicesIcon.8c21150d.svg": "/job_portal/static/media/servicesIcon.8c21150d.svg",
+    "static/media/servicesIcon2.31339e4f.svg": "/job_portal/static/media/servicesIcon2.31339e4f.svg",
+    "static/media/servicesIcon3.63a7608c.svg": "/job_portal/static/media/servicesIcon3.63a7608c.svg",
+    "static/media/servicesIcon4.5a269793.svg": "/job_portal/static/media/servicesIcon4.5a269793.svg",
+    "static/media/servicesIcon5.62258302.svg": "/job_portal/static/media/servicesIcon5.62258302.svg",
+    "static/media/servicesIcon6.d4f806de.svg": "/job_portal/static/media/servicesIcon6.d4f806de.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44253d2f.js",
+    "static/css/2.ef9168ec.chunk.css",
+    "static/js/2.0a9d790b.chunk.js",
+    "static/css/main.39810a28.chunk.css",
+    "static/js/main.4542e5a3.chunk.js"
+  ]
+}
